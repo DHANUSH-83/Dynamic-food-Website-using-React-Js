@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ 
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 20px 0 10px 0;
+    
+}
+.Navbar img{
+    height: 150px;
+}
+nav{
+    padding-top: 50px;
+}
+nav a{
+   padding: 40px ;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 25px;
+   
+    color: gray;
+    padding-bottom: 20px;
+}
+nav a:hover{
+    color: black;
+}
+.Navbar button{
+    height: 40px;
+    width: 200px;
+    margin: 50px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 1s;
+}
+.Navbar button:hover{
+    color: rgb(207, 49, 21);
+    background-color: rgb(181, 178, 178);
+    
+}

@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.Contact {
+    background-color: rgb(223, 220, 220);
+
+    &-content {
+        h1 {
+            font-size: 100px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 22px;
+            color: gray;
+        }
+    }
+
+    &-content {
+
+
+        .Form-content {
+            display: flex;
+            justify-content: center;
+            margin: 3%;
+
+            form {
+                // border: 1px solid red;
+                border-radius: 30px;
+                margin-bottom: 60px;
+                background-color: rgb(236, 237, 237);
+
+                .Form-name {
+                    display: flex;
+                    padding: 30px;
+
+                    label {
+                        font-size: 25px;
+
+                        margin-left: 30px;
+
+                    }
+
+                    input {
+                        height: 65px;
+                        width: 50vh;
+                        margin: 20px;
+                        border-radius: 30px;
+                        font-size: 20px;
+                        padding-left: 20px;
+                    }
+                }
+
+
+                .Subject,
+                .Message {
+                    padding: 30px;
+
+                    label {
+                        font-size: 25px;
+                        margin: 30px;
+
+                    }
+
+                    input {
+                        height: 65px;
+                        width: 110vh;
+                        border-radius: 30px;
+                        font-size: 20px;
+                        padding-left: 20px;
+                        margin: 20px;
+
+                    }
+                }
+
+                .Message {
+                    input {
+                        height: 120px;
+                    }
+                }
+                button{
+                    height: 65px;
+                    width: 50vh;
+                    margin-left: 38vh;
+                    margin-bottom: 50px;
+                    font-size: 25px;
+                    background-color: rgb(207, 49, 21);
+                    color: #fff;
+                    border: none;
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+}

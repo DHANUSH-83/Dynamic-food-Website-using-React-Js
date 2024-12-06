@@ -1,0 +1,116 @@
+.Menuslist {
+
+    .Menu-title {
+
+        h1 {
+            text-align: center;
+            font-size: 120px;
+            font-weight: 100;
+            color: #343333;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(122, 120, 120);
+            padding-bottom: 30px;
+        }
+    }
+
+    .Menu-list {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 18%;
+        max-width: 1200px;
+
+
+        ul {
+            padding: 20px;
+            list-style: none;
+            cursor: pointer;
+
+
+            li {
+              
+                font-size: 25px;
+                padding: 6px 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(160, 160, 160);
+                
+            }
+
+            .active {
+                background-color: rgb(207, 49, 21);
+                color: #fff;
+            }
+
+            li:hover {
+                background-color: gray;
+
+            }
+        }
+    }
+
+}
+
+
+
+
+// Foavorite Food list
+
+.FavFooditems {
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+    .Favorite-Food-list {
+        li {
+            margin: 30px;
+            list-style: none;
+            border-radius: 20px;
+            height: 40vh;
+            transition: 1s;
+
+            img {
+                height: 270px;
+                margin: 20px;
+                border-radius: 10px;
+            }
+
+            h1 {
+                font-size: 20px;
+                text-align: center;
+                display: none;
+            }
+
+        }
+
+        li:hover {
+            transform: translatey(-20px);
+            background-color: rgb(218, 218, 218);
+            border: none;
+           
+
+
+            h1 {
+                color: rgb(207, 49, 21);
+                display: block;
+                
+                font-size: 20px;
+
+            }
+        }
+    }
+
+    .Filterdhead{
+        font-size: 80px;
+        color: gray;
+        padding: 30px;
+    }
+}

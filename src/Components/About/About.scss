@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+// AboutBg Style
+
+.AboutBg {
+
+    &-Content {
+        display: flex;
+
+        justify-content: center;
+
+        .AboutBg-Image {
+            padding: 2%;
+
+            img {
+                height: 600px;
+                width: 600px;
+                border-radius: 20px;
+
+            }
+        }
+
+        .AboutBg-description {
+            max-width: 600px;
+            padding: 2%;
+
+            h1 {
+                font-size: 70px;
+                font-weight: 100;
+                padding-top: 80px;
+            }
+
+            p {
+                font-size: 20px;
+                padding: 20px;
+            }
+        }
+
+    }
+}
+
+// AbVideo page Style
+.Abvideo {
+    height: 110vh;
+    background: #000;
+
+    video {
+        width: 99%;
+        height: 70%;
+        border-radius: 10px;
+        padding-top: 50px;
+
+    }
+
+    .description {
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+
+
+        .description-conent {
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        p {
+            color: aliceblue;
+            max-width: 400px;
+            text-align: center;
+            padding: 3%;
+        }
+
+
+    }
+}
+
+// AboutBanner Style
+
+.AboutBanner {
+    background-color: #000;
+    color: #eb0f0f;
+    height: 100vh;
+  
+    .contents {
+        background-color: #e5e5e5;
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        margin-left: 4.5%;
+        border-radius: 20px;
+
+        .content {
+            max-width: 900px;
+            margin-left: 5%;
+
+            h1 {
+                font-size: 80px;
+                padding: 30px;
+                padding-top: 60px;
+                font-weight: 100;
+                font-style: italic;
+                color: #000;
+                
+            }
+            p{
+                font-size: 25px;
+                color: #000;
+                padding: 60px;
+            }
+            button{
+                height: 40px;
+                width: 250px;
+                font-size: 20px;
+                border-radius: 20px;
+                background-color:rgb(197, 8, 8);
+                color: #fff;
+
+            }
+        }
+
+        .content-image {
+            margin: 50px;
+            img {
+                height: 650px;
+                width: 450px;
+                
+                border-radius: 20px;
+               
+            }
+        }
+
+
+    }
+   
+}
